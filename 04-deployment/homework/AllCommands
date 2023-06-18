@@ -1,0 +1,6 @@
+
+docker build -t mj_mlops-zoomcamp-model:v1 .
+
+docker run -it --rm --entrypoint=bash mj_mlops-zoomcamp-model:v1 #for bash entry point 
+
+docker run -it --rm mj_mlops-zoomcamp-model:v1 #with entrypoint specified in the docker file
